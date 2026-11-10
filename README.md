@@ -25,8 +25,7 @@ To design and simulate a Traffic Light Controller using Verilog HDL and verify i
 9. Record the simulation results.
 
 ## Verilog HDL Code
-
-```verilog
+```
 module traffic_light(
     input clk,
     input reset,
@@ -93,8 +92,7 @@ endmodule
 ```
 
 ## Testbench Code
-
-```verilog
+```
 `timescale 1ns/1ps
 
 module traffic_light_tb;
@@ -129,9 +127,12 @@ begin
 end
 
 endmodule
+
 ```
 
 ## Expected Output
+<img width="1361" height="770" alt="image" src="https://github.com/user-attachments/assets/18b214ed-4ee3-4368-a394-c6bfa1836faf" />
+
 
 
 ## Result
